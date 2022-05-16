@@ -32,10 +32,10 @@ const Popular = () => {
             gap: "2rem",
           }}
         >
-          {state.map((val, id) => {
+          {state.map((val) => {
             return (
               <SplideSlide>
-                <Card key={id}>
+                <Card key={val.id}>
                   <p>{val.title}</p>
                   <img src={val.image} alt={val.title} />
                   <Gradient />

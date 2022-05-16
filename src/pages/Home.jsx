@@ -1,14 +1,14 @@
-import React from 'react'
-import Popular from '../components/Popular'
-import Veg from '../components/Veg'
+import React from "react";
+import Popular from "../components/Popular";
+import Veg from "../components/Veg";
 
 const Home = () => {
   return (
     <>
-    <Veg/>
-    <Popular/>
+      <Veg />
+      <Popular />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
